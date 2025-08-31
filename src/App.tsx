@@ -2,7 +2,7 @@ import { HashRouter, Routes, Route } from "react-router-dom";
 
 const App = () => (
   <HashRouter>
-    <div style={{ padding: '20px', color: 'white', backgroundColor: '#1a1a1a', minHeight: '100vh' }}>
+    <div>
       <h1>In Love Dashboard</h1>
       <p>Teste de funcionamento</p>
       <Routes>
