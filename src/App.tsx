@@ -1,21 +1,11 @@
-import { HashRouter, Routes, Route } from "react-router-dom";
-
-const App = () => (
-  <HashRouter>
+const App = () => {
+  return (
     <div>
       <h1>In Love Dashboard</h1>
       <p>Teste de funcionamento</p>
-      <Routes>
-        <Route path="/" element={<div>Dashboard funcionando!</div>} />
-        <Route path="/clientes" element={<div>Página de Clientes</div>} />
-        <Route path="/produtos" element={<div>Página de Produtos</div>} />
-        <Route path="/pedidos" element={<div>Página de Pedidos</div>} />
-        <Route path="/consignados" element={<div>Página de Consignados</div>} />
-        <Route path="/caixa" element={<div>Página de Caixa</div>} />
-        <Route path="*" element={<div>Página não encontrada</div>} />
-      </Routes>
+      <p>Se você está vendo isso, o React está funcionando!</p>
     </div>
-  </HashRouter>
-);
+  );
+};
 
 export default App;
